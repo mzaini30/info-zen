@@ -1,7 +1,20 @@
 {
-  "name": "baru",
-  "private": true,
-  "version": "0.0.0",
+  "name": "info-zen",
+  "version": "0.0.1",
+  "description": "Menambahkan komponen Info Zen di websitemu.",
+  "main": "./src/komponen/info.vue",
+  "files": ["./src/komponen"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzaini30/info-zen.git"
+  },
+  "keywords": ["zenia", "blog zen", "vue", "vue component"],
+  "author": "Muhammad Zaini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzaini30/info-zen/issues"
+  },
+  "homepage": "https://github.com/mzaini30/info-zen#readme",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build && tsx script/afterBuild.ts",
@@ -9,6 +22,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "latest-blogspot": "^1.0.4",
     "vue": "^3.2.25"
   },
   "devDependencies": {

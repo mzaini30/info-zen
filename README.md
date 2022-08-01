@@ -1,11 +1,26 @@
-# Template Vue
+# Info Zen
 
-<!-- blog start -->
-## Blog
+Menambahkan komponen Info Zen di websitemu.
 
-- [Membuat File HTML + Windi CSS + Alpine JS](https://github.zenia.my.id/tulisan/windiAlpine)
-- [Script Golang untuk Ngecek Error](https://github.zenia.my.id/tulisan/error)
-- [Otomatis "go fmt" Setiap Save](https://github.zenia.my.id/tulisan/gofmt)
-- [Install Workflow Automa dari Digimart](https://github.zenia.my.id/tulisan/digimart)
-- [Mengatasi Bun Error Illegal Instruction](https://github.zenia.my.id/tulisan/bun)
-<!-- blog end -->
+## Requirements
+
+- Vue
+- Uno CSS/Windi/Tailwind
+
+## Install
+
+```bash
+npm i info-zen
+```
+
+## Contoh Cara Pakai
+
+```html
+<script setup lang="ts">
+import Info from "info-zen";
+</script>
+
+<template>
+  <Info/>
+</template>
+```
